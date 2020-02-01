@@ -41,7 +41,7 @@ public class Game {
 			getArray();
 			takeGuess(input);
 			if (isGuessed()) {
-				System.out.println("You won!");
+				System.out.println("You won!\nThe word was: " + word);
 				break;
 			} else {
 				guessCount--;
